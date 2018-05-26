@@ -31,7 +31,7 @@ db.createCollection("dtos", {
 	validator: {
 		$jsonSchema: {
 			bsonType: "object",
-			required: ["dtoId", "dtoName", "fields"],
+			required: ["dtoName", "fields"],
 			properties: {
 				dtoName: {
 					type: "string"
